@@ -1,0 +1,130 @@
+/* 09-05-23 CSS */
+
+body {
+    color: #111111;
+    background-color: #ffffff;
+}
+
+h1 {
+  color:blue;
+  font-size: 3em;
+}
+
+p {
+  color: red;
+  font-size: 1.5em;
+}
+
+/* Classes */
+
+.cmiddle {   /* Centers content vertically */                                      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rmiddle {  /* Centers content horizontally */                                         
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Color Palette
+
+#111111
+#ffffff
+
+/*
+
+/* Below are various code snippets for future use as needed */
+
+
+/* Google Fonts
+
+
+*/
+
+
+/* Full Screen Background Image
+
+background-image:url(../images/);
+background-position: center center;
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size:  cover;
+background-color: var(--black);
+
+*/
+
+
+/* Individual Side Box Shadows
+
+top {
+  box-shadow: 0px -15px 10px -15px #111;
+}
+
+right {
+  box-shadow: 15px 0px 10px -15px #111;
+}
+
+bottom {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+
+left {
+  box-shadow: -15px 0px 10px -15px #111;
+}
+
+*/
+
+/*  Fullscreen Video Background CSS
+
+#video-background {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+*/
+
+
+/* Carousel/Slideshow CSS (Slider)
+
+.container{
+    width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide{
+    0%{transform: translateX(0);}
+    25%{transform: translateX(0);}
+    30%{transform: translateX(-100%);}
+    50%{transform: translateX(-100%);}
+    55%{transform: translateX(-200%);}
+    75%{transform: translateX(-200%);}
+    80%{transform: translateX(-300%);}
+    100%{transform: translateX(-300%);}
+}
+.container img {
+    width: 100%;
+}
+
+*/
