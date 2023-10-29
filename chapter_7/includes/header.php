@@ -1,0 +1,1 @@
+<h1>The Center for Great Commission Studies</h1>

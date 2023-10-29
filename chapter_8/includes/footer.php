@@ -1,0 +1,1 @@
+<h1>&copy; All Rights Reserved</h1>

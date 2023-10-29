@@ -1,0 +1,1 @@
+<p>&copy; 2023 The Center for Great Commission Studies</p>
